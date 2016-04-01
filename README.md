@@ -4,7 +4,7 @@ I have used the following components of Android Application Development in this 
 
 
 ACTIVITIES:
-Draw Activity
+Draw Activity:
 The draw activity has the following features:
 A custom view that allows users to draw arbitrary pixels
 
