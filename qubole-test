@@ -103,14 +103,48 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sql\nshow tables;",
+      "dateUpdated": "Sep 2, 2016 10:39:15 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1472852751080_2057186087",
       "id": "20160902-214551_323389292",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "org.apache.spark.sql.catalyst.parser.ParseException: \nextraneous input \u0027;\u0027 expecting \u003cEOF\u003e(line 1, pos 11)\n\n\u003d\u003d SQL \u003d\u003d\nshow tables;\n-----------^^^\n\n\tat org.apache.spark.sql.catalyst.parser.ParseException.withCommand(ParseDriver.scala:197)\n\tat org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parse(ParseDriver.scala:99)\n\tat org.apache.spark.sql.execution.SparkSqlParser.parse(SparkSqlParser.scala:46)\n\tat org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parsePlan(ParseDriver.scala:53)\n\tat org.apache.spark.sql.SparkSession.sql(SparkSession.scala:582)\n\tat org.apache.spark.sql.SQLContext.sql(SQLContext.scala:682)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:606)\n\tat org.apache.zeppelin.spark.SparkSqlInterpreter.interpret(SparkSqlInterpreter.java:158)\n\tat org.apache.zeppelin.interpreter.ClassloaderInterpreter.interpret(ClassloaderInterpreter.java:57)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:104)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:316)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:178)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler$1.run(FIFOScheduler.java:160)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+      },
       "dateCreated": "Sep 2, 2016 9:45:51 PM",
+      "dateStarted": "Sep 2, 2016 10:39:16 PM",
+      "dateFinished": "Sep 2, 2016 10:39:16 PM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1472855955955_-2041284261",
+      "id": "20160902-223915_424925396",
+      "dateCreated": "Sep 2, 2016 10:39:15 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
