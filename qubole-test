@@ -1,1 +1,95 @@
-
+{
+  "paragraphs": [
+    {
+      "text": "%sql\nshow tables",
+      "dateUpdated": "Sep 2, 2016 9:33:59 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1472851605348_-1049496004",
+      "id": "20160902-212645_1545551256",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\nabcd\tfalse\nactors\tfalse\nairline_orc\tfalse\nairline_orc_nc\tfalse\nairline_orc_snappy\tfalse\nairline_parq\tfalse\nairline_parq_nc\tfalse\nairline_parq_snappy\tfalse\nairline_parquet\tfalse\nbase_table\tfalse\ncustomers\tfalse\ndefault_airline_table_orc\tfalse\ndefault_airline_table_orc_sample\tfalse\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\nderived_table1\tfalse\nderived_table2\tfalse\nderived_table3\tfalse\nemployeedetailsfour\tfalse\nemployeedetailsone\tfalse\nemployeedetailsthree\tfalse\nemployeedetailstwo\tfalse\nemployeesinternal\tfalse\npartitioned_country\tfalse\npartitioned_table\tfalse\npersons\tfalse\nsample_ctas\tfalse\nstudents\tfalse\ntemp_country\tfalse\n"
+      },
+      "dateCreated": "Sep 2, 2016 9:26:45 PM",
+      "dateStarted": "Sep 2, 2016 9:33:59 PM",
+      "dateFinished": "Sep 2, 2016 9:34:00 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nUSE default",
+      "dateUpdated": "Sep 2, 2016 9:31:30 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1472851861395_909228353",
+      "id": "20160902-213101_73533440",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Sep 2, 2016 9:31:01 PM",
+      "dateStarted": "Sep 2, 2016 9:31:30 PM",
+      "dateFinished": "Sep 2, 2016 9:31:33 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1472851937260_-1313948194",
+      "id": "20160902-213217_374968980",
+      "dateCreated": "Sep 2, 2016 9:32:17 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "PrathamVasaSampleNotebook",
+  "id": "B67VHM13V31472850425",
+  "angularObjects": {
+    "2BURFS95W198841471454221307": [],
+    "2BTY1Y7ED198841471454221247": [],
+    "2BSZQ4WGD198841471454221299": [],
+    "2BT4M72W4198841471454221303": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
